@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.imp{
+	border: 2px solid #666;
+	margin: auto;
+	height: 200px;
+	width: 350px;
+	margin-top: 250px;
+	background-color: aliceblue;
+}
+	
+.picture{
+	margin-left: 20px;
+    margin-top: 10px;
+	display: inline-block;
+}
+.picture img{
+	height: 100px;
+	width: 100px;
+}
+
+.test{
+	padding-left: 50px;
+	display: inline-block;
+	height: 100px;
+	width: 170px;
+}
+
+.bottom{
+	padding-left: 10px;
+	height: 75px;
+	width: 340px;
+}
+.bottom img{
+	
+	width:30px;
+	height: 30px;
+}
+
