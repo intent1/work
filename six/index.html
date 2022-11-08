@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>天火阅读</title>
+		<link href="css/six.css" rel="stylesheet">
+		<script>
+
+			 function getValue() {
+				 var a = document.getElementById("zhanghao").value;
+				 var b = document.getElementById("yanzheng").value;
+			        document.getElementById("show").innerHTML = "账号是: " + a +   "验证码是: " + b;
+			    }
+			function errors(){
+				var c = document.getElementById("zhanghao").value;
+				if(c==""||c==null){
+					alert("不能输入空值哦");
+					return false;
+				}
+				else if(isNaN(c)){
+					alert("请输入数字");
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="page">
+			<div style="position: absolute;right: 50px;">
+			<img src="img/LOGO.png"/>
+			</div>
+			<div class="denglu">
+				<p>用户登录</p>
+				<div class="putput">
+					<form action="six1.html" onsubmit="return errors()"  method="get" >
+						<div>
+							<div class="qqq"></div><input class="yyy"   placeholder="输入手机号/邮箱" value="19829867505" type="text" id="zhanghao">
+							<hr>
+							<div class="www"></div><input class="yyy"  placeholder="输入验证码" value="123456" type="password"  id="yanzheng"	>
+							<text style="color: #0000ff; font-weight: bold;font-size: 13px;">获取验证码</text>
+							<hr>
+							<div ><div ><input type="checkbox" class="ddd"><text style="color: #fff;font-size: 11px;">记住账号 </text>		</div>
+						
+						<input type="button" value="显示你的值" onclick="getValue()">
+						<hr/>
+						<p id="show"></p>
+						<div style="padding-top: 15px;margin-left: 15px;"><text style="color: #fff;font-size: 4px;">免注册登录，点击[登录]即已阅读并同意</text>
+						<text style="color: #0000ff;font-size: 10px;">《服务条款》</text></div>
+						
+						<input class="rrr" type="submit" value="登录" >
+						
+						</div>
+					</form>
+					<p style="font-size: 12px;margin-left: 10px;">-----------------------其他方式-----------------------	</p>
+					<div class="sss">
+						
+					<img src="img/weixin.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  src="img/QQ (1).png"/>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,106 @@
+.page{
+	height: 700px;
+	width: 370px;
+	border: 1px solid #eee;
+	background: url(../img/back.png);
+	position: relative;
+	right: -550px;
+	border-radius: 1%;
+
+}
+
+.denglu{
+	position: relative;
+	height: 510px;
+	width: 341px;
+	margin: 4px;
+	background-color: #aaa;
+	margin-top: 90px;
+	border-radius: 2%;
+	z-index: 4;
+	padding: 1px 0px 8px 21px	;
+
+	
+}
+
+.denglu p{
+	font-size: 28px;
+}
+
+hr{
+	color: #fff;
+	width: 300px;
+}
+p{
+	color: #fff;
+	
+}
+
+.putput{
+	padding-bottom: -20px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.putin{
+	display: inline-block;
+}
+.qqq{
+	width: 25px;
+	 height: 25px; 
+	 background-image: url(../img/person.png);
+	 background-size: cover;
+	 display: inline-block;
+}
+.www{
+	width: 25px;
+	 height: 25px; 
+	 background-image: url(../img/anquan.png);
+	 background-size: cover;
+	 display: inline-block;
+}
+.yyy{
+	margin-bottom: -20px;
+	background-color: #aaa;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	color: #eee;
+	font-size: 11px;
+	font-weight: bold;
+    border: none;
+	text-indent: 10px;
+	display: inline-block;
+	 
+}
+
+.ddd{
+	border: 2px solid #fff;
+	width: 12px;
+	height: 12px;
+	border-radius: 20%;
+	display: inline-block;
+	margin-left: 235px;
+	background-color: #aaa;
+}
+.rrr{ 
+	margin-top: 7px;
+	background-color: #0000ff;
+	width: 270px;
+	height: 30px;
+	border-radius: 17px;
+	color: #eee;
+	font-size: 11px;
+	font-weight: bold;
+    border: none;
+	text-indent: 10px;
+    margin-left: 20px;
+	}
+	
+.sss{
+	margin-left: 115px;
+}
+.sss img{
+	height: 27px;
+	width: 27px;
+}
